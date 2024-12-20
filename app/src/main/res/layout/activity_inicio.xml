@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8ABF2"
+    android:orientation="vertical"
+    tools:context=".Inicio">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#CE5F5F"
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Villa Sabrosa"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="#CE5F5F">
+
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+
+                    app:iss_auto_cycle="true"
+                    app:iss_delay="100"
+                    app:iss_period="1000"></com.denzcoskun.imageslider.ImageSlider>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="Secciones:"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnInicioEspeciales"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#FFC107"
+                android:onClick="IrEspeciales"
+                android:text="Platos Especiales"
+                android:textColor="#020202"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:onClick="IrMenus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#FFC107"
+                android:text="Menus"
+                android:textColor="#020202"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="130dp"
+                android:backgroundTint="#FFC107"
+                android:onClick="IrClientes"
+                android:text="Clientes"
+                android:textColor="#020202"
+                app:cornerRadius="10dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Redes sociales:"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="59dp"
+                    android:layout_height="41dp"
+                    app:srcCompat="@drawable/youtube" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="59dp"
+                    android:layout_height="41dp"
+                    app:srcCompat="@drawable/twiter" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="59dp"
+                    android:layout_height="41dp"
+                    app:srcCompat="@drawable/facebook" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

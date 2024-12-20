@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ProyectoRestaurante</string>
+    <string name="Ceviche">
+        Pescado fresco marinado en jugo de limón, acompañado de ají limo, cebolla, choclo y camote. Un plato emblemático de la costa peruana, refrescante y lleno de sabor.
+        </string>
+
+    <string name="LomoSaltado">
+        Tiras de carne de res salteadas con cebolla, tomate y ají amarillo, fusionado con especias y acompañado de papas fritas y arroz.
+    </string>
+
+    <string name="AjiDeGallina">
+        Pollo deshilachado en una cremosa salsa de ají amarillo, queso y leche, servido con papa sancochada y arroz.
+    </string>
+
+    <string name="RocotoRelleno">
+        Rocoto picante relleno de carne molida, maní y especias, horneado con queso y acompañado de pastel de papa. Un plato típico de Arequipa.
+    </string>
+
+    <string name="PapaHuancaina">
+        Rodajas de papa hervida bañadas en una salsa cremosa de ají amarillo, queso fresco y leche, decoradas con aceitunas y huevo duro.
+    </string>
+
+    <string name="AdoboDeCerdo">
+        Cerdo marinado en chicha de jora y ají panca, cocido lentamente con especias hasta obtener un sabor profundo y tradicional.
+    </string>
+
+    <string name="Juane">
+        Arroz sazonado con cúrcuma y especias, relleno de carne de pollo, huevo y aceitunas, envuelto en hojas de bijao y cocido al vapor.
+    </string>
+
+    <string name="Tacacho">
+        Plátano verde asado y amasado, acompañado de cecina ahumada y chorizo. Un clásico de la selva peruana.
+    </string>
+
+    <string name="Patarashca">
+        Pescado fresco envuelto en hojas de bijao, condimentado con hierbas y especias, cocido a la brasa o al vapor.
+    </string>
+
+</resources>
